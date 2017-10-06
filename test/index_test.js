@@ -48,7 +48,7 @@ describe("#indexByKey", () => {
   it("should not have the property specified as the indexer", () => {
     const key = "id";
     const indexById = indexByKey(key);
-    const obj = indexByKey(data);
+    const obj = indexById(data);
 
     const predicate = R.map(R.complement(R.has(key)));
     const isTrue = R.equals(true);

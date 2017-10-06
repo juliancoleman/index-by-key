@@ -8,7 +8,7 @@ const {
 
 const indexByKey = key => pipe(
   indexBy(prop(key)),
-  map(omit([key]))
+  map(omit([key])) // eslint-disable-line
 );
 
 module.exports = indexByKey;

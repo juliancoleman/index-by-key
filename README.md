@@ -95,5 +95,8 @@ Alternatively, this same thing can be achieved by doing the
 following:
 
 ```js
-API.getUsers().then(indexByKey("id"));
+API
+  .getUsers()
+  .then(indexByKey("id"))
+  .catch(UserNotFoundError, () => 404);
 ```

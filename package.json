@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha --globals chai test/boot.js \"test/**/*_test.js\" --reporter=dot",
-    "coverage": "istanbul covert --report lcov _mocha"
+    "coverage": "istanbul cover --report lcov _mocha"
   },
   "pre-commit": [
     "lint",

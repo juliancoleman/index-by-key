@@ -9,6 +9,8 @@ specified and the value is the rest of the object. The
 function will return a new object and will not mutate or
 destroy the original array.
 
+This function performs the inverse of [assoc-by-key](https://github.com/juliancoleman/assoc-by-key)
+
 ## Install
 
 ### `yarn`

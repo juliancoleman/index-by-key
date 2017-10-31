@@ -1,5 +1,5 @@
 const R = require("ramda");
-const indexByKey = require("../src/indexByKey");
+const indexByKey = require("../src/index");
 
 const data = [
   {

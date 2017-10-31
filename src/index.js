@@ -1,1 +1,1 @@
-module.exports = require("./indexByKey");
+module.exports = require("./index-by-key");
